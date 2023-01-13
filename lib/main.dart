@@ -1,3 +1,4 @@
+import 'package:events/ui/homepage/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Color(0xFFFFFFFF),
         primaryColor: Color(0xFFFF4700),
       ),
-      home: Container(),
+      home: HomePage(),
     );
   }
 }
