@@ -2,6 +2,7 @@ import 'package:events/app_state.dart';
 import 'package:events/model/category.dart';
 import 'package:events/model/event.dart';
 import 'package:events/styleguide.dart';
+import 'package:events/ui/event_detail/event_details_page.dart';
 import 'package:events/ui/homepage/category_widget.dart';
 import 'package:events/ui/homepage/event_widget.dart';
 import 'package:events/ui/homepage/home_page_backgroud.dart';
@@ -77,7 +78,13 @@ class HomePage extends StatelessWidget {
                               for (final event in events.where((e) => e
                                   .categoryIds
                                   .contains(appState.selectedCategoryId)))
-                                EventWidget(event: event)
+                                GestureDetector(
+                                  onTap: () => Navigator.of(context).push(
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              EventDetailsPage(event: event))),
+                                  child: EventWidget(event: event),
+                                ),
                             ],
                           );
                         },
