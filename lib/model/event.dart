@@ -1,24 +1,24 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 class Event {
-  final String? imagePath,
+  final String imagePath,
       title,
       description,
       location,
       duration,
       punchLine1,
       punchLine2;
-  final List? categoryIds, galleryImages;
+  final List categoryIds, galleryImages;
 
   Event({
-    this.imagePath,
-    this.title,
-    this.description,
-    this.location,
-    this.duration,
-    this.punchLine1,
-    this.punchLine2,
-    this.categoryIds,
-    this.galleryImages,
+    required this.imagePath,
+    required this.title,
+    required this.description,
+    required this.location,
+    required this.duration,
+    required this.punchLine1,
+    required this.punchLine2,
+    required this.categoryIds,
+    required this.galleryImages,
   });
 }
 
