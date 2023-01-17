@@ -84,6 +84,43 @@ class EventDetailsContent extends StatelessWidget {
               ]),
             ),
           ),
+          if (event.description.isNotEmpty)
+            Padding(
+              padding: EdgeInsets.all(16),
+              child: Text(
+                event.description,
+                style: eventLocationTextStyle,
+              ),
+            ),
+          if (event.galleryImages.isNotEmpty)
+            Padding(
+              padding: EdgeInsets.only(left: 16),
+              child: Text(
+                "GALLERY",
+                style: guestTextStyle,
+              ),
+            ),
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                for (final galleryImagePath in event.galleryImages)
+                  Container(
+                    margin: const EdgeInsets.only(
+                        left: 16, right: 16, top: 10, bottom: 32),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(20),
+                      child: Image.asset(
+                        galleryImagePath,
+                        width: 180,
+                        height: 180,
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+          ),
         ],
       ),
     );
