@@ -19,6 +19,7 @@ class EventDetailsPage extends StatelessWidget {
         body: Provider<Event>.value(
       value: event,
       child: Stack(
+        fit: StackFit.expand,
         children: [
           EventDetailsBackground(),
           EventDetailsContent(),
