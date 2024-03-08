@@ -24,7 +24,7 @@ class Event {
 
 final fiveKmRunEvent = Event(
     imagePath: "assets/event_images/5_km_downtown_run.jpeg",
-    title: "5 Kilometer Downtown Run",
+    title: "5 Kilometer Downtown Run!",
     description: "",
     location: "Pleasant Park",
     duration: "3h",
@@ -35,7 +35,7 @@ final fiveKmRunEvent = Event(
 
 final cookingEvent = Event(
     imagePath: "assets/event_images/granite_cooking_class.jpeg",
-    title: "Granite Cooking Class",
+    title: "Granite Cooking Class!",
     description:
         "Guest list fill up fast so be sure to apply before handto secure a spot.",
     location: "Food Court Avenue",
@@ -54,7 +54,7 @@ final cookingEvent = Event(
 
 final musicConcert = Event(
     imagePath: "assets/event_images/music_concert.jpeg",
-    title: "Arijit Music Concert",
+    title: "Arijit Music Concert!",
     description: "Listen to Arijit's latest compositions.",
     location: "D.Y. Patil Stadium, Mumbai",
     duration: "5h",
@@ -72,7 +72,7 @@ final musicConcert = Event(
 
 final golfCompetition = Event(
     imagePath: "assets/event_images/golf_competition.jpeg",
-    title: "Season 2 Golf Estate",
+    title: "Season 2 Golf Estate!",
     description: "",
     location: "NSIC Ground, Okhla",
     duration: "1d",

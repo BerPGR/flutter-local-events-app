@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Local Events APP',
       theme: ThemeData(
         scaffoldBackgroundColor: Color(0xFFFFFFFF),
+        
         primaryColor: Color(0xFFFF4700),
       ),
       home: HomePage(),

@@ -79,7 +79,8 @@ class EventDetailsContent extends StatelessWidget {
             padding: const EdgeInsets.all(16),
             child: RichText(
               text: TextSpan(children: [
-                TextSpan(text: event.punchLine1, style: punchLine1TextStyle),
+                TextSpan(
+                    text: "${event.punchLine1} ", style: punchLine1TextStyle),
                 TextSpan(text: event.punchLine2, style: punchLine2TextStyle),
               ]),
             ),
