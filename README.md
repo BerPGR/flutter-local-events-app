@@ -1,10 +1,10 @@
 # App de Eventos Locais
 
-Bem-vindo ao aplicativo de eventos locais! Este é um projeto Flutter que oferece informações sobre eventos que estão acontecendo em sua região, permitindo que os usuários descubram e participem de eventos interessantes.
+Bem-vindo ao aplicativo de eventos locais! Este é um projeto Flutter que oferece informações sobre eventos que estão acontecendo, permitindo que os usuários descubram e participem de eventos interessantes.
 
 ## Página Principal
 
-A página principal do aplicativo apresenta uma lista de eventos locais, onde os usuários podem visualizar os detalhes básicos de cada evento, como título, data, local e uma breve descrição. Os usuários também têm a opção de filtrar os eventos por categoria, data ou localização.
+A página principal do aplicativo apresenta uma lista de eventos locais, onde os usuários podem visualizar os detalhes básicos de cada evento, como título, data, local e uma breve descrição. Os usuários também têm a opção de filtrar os eventos por categoria.
 
 ## Página do Evento
 
